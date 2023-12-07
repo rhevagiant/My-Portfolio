@@ -1,0 +1,61 @@
+.gradient-background {
+    background: linear-gradient(300deg, #cc9ace, #d4d4eb, #bcbee7);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  @font-face {
+    font-family: daylight;
+    src: url(Daylight.otf);
+  }
+
+  #title {
+    color:  rgb(70, 19, 117);
+  }
+
+
+  .navbar-brand{
+    font-family: daylight;
+  }
+
+  #myproject, #Sertifikat, #footer{
+    background-color: #cecefa;
+  }
+
+  #bg-big{
+    background-image: url(image/bg-testi-2.png);
+    background-size: cover;
+  }
+
+  .progress-bar{
+    background-image: linear-gradient(to right, #cc9ace, #d4d4eb, #bcbee7);
+    color: rgb(70, 19, 117);
+  }
+
+  .profile-img {
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  #bg-testi{
+    background-image: url(image/bg-testi3.png);
+    border-radius: 25px;
+    border-width: 9px;
+    border-color: #a155a3;
+  }
+
+   
+
+
