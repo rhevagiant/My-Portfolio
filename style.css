@@ -21,11 +21,18 @@
     src: url(Daylight.otf);
   }
 
+  body{
+    overflow-x: hidden;
+  }
+
   #title {
     color:  rgb(70, 19, 117);
   }
 
-
+  /* .nav{
+    background-color: white;
+  }
+   */
   .navbar-brand{
     font-family: daylight;
   }
